@@ -3,3 +3,5 @@ When you initialize a repository git install all the nessary meta data into a .g
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is a space that git uses to stage all of the needed files for the commit. It allows the user to be selective about what they commit. I think this is extremely valuable because you want the commits to be logical. They need to a defined change that is being commited. It saves the user from committing data that is not completed. 
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the "git diff" command to check the difference between the staging and the working directories. It will show all of the changes between the two so you can make sure your commit contains one logical change. If you also use "git diff --staged" it will compare the staging area to the last commit so you can also review the changes you are about to commit to make sure if match the rule one logical change per commit. 
