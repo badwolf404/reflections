@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all of your work local?
+
+If you were planning to work on the project with other people and wanted a way to keep a central file system and not lose track of each others work. If you also wanted to access all of your code and files from any location or computer. 
